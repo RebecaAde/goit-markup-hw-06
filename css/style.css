@@ -574,31 +574,8 @@ h5 {
   margin-left: -10px;
   color: #212121;
 }
-
-.symbol-list-ul {
-  display: flex;
-  padding-inline-start: 0;
-  width: 270px;
-  height: 120px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  gap: 30px;
-}
-.symbol-list {
-  display: flex;
-  flex-direction: row;
-  padding-inline-start: 0;
-  width: 270px;
-  height: 120px;
-  background: #f5f4fa;
-  border-radius: 4px;
-  gap: 30px;
-}
-.symbol {
-  display: flex;
-  transform: scale(0.6);
-  margin-left: -10px;
-  color: #212121;
+.symbol:hover {
+  color: #0a8bf5;
 }
 
 .symbol-list-ul {
@@ -787,6 +764,9 @@ h5 {
 }
 .form-group {
   color: #212121;
+}
+.form-group:focus {
+  color: #0a8bf5;
 }
 .form-group:active {
   color: #0a8bf5;
