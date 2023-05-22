@@ -765,8 +765,8 @@ h5 {
 .form-group {
   color: #212121;
 }
-.form-group:focus {
-  color: #0a8bf5;
+.form-group:focus-within {
+  font-weight: bold;
 }
 .form-group:active {
   color: #0a8bf5;
