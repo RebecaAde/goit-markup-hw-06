@@ -765,10 +765,12 @@ h5 {
 .form-group {
   color: #212121;
 }
-.form-group:focus-within {
-  font-weight: bold;
+.form-group > *:nth-child(2):focus-within {
+  border: 2px solid #2196f3;
+  border-radius: 4px;
 }
-.form-group:active {
+
+.form-group:focus-within > svg {
   color: #0a8bf5;
 }
 
@@ -790,10 +792,6 @@ h5 {
   cursor: pointer;
   border: 1px solid rgba(33, 33, 33, 0.2);
 }
-.form-group > *:nth-child(2):active {
-  border: 2px solid #2196f3;
-  border-radius: 4px;
-}
 
 .text-area {
   resize: none;
@@ -803,6 +801,7 @@ h5 {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.01em;
+  outline: none;
 }
 
 .form-checkbox {
